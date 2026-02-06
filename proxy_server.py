@@ -19,6 +19,10 @@ HTML_TEMPLATE = '''
             padding: 0;
             box-sizing: border-box;
         }
+
+        strong {
+            color: #FF0000;
+        }
         
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -129,7 +133,10 @@ HTML_TEMPLATE = '''
                 <button type="submit" class="btn">Browse</button>
             </form>
             <details class="info">
-                ℹ️ Use the Waizender Proxy as a simple http/web proxy interface to access websites that may otherwise be blocked by a firewall.
+                <ul>
+                    <li>ℹ️ Use the Waizender Proxy as a simple http/web proxy interface to access websites that may otherwise be blocked by a firewall.</li>
+                    <li><strong>Only enter URLs for pages. Do not use this as a search tool (e.g. Google).</strong></li>
+                </ul>
             </details>
         </div>
     </div>
