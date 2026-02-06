@@ -12,7 +12,7 @@ HTML_TEMPLATE = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Proxy</title>
+    <title>Assignment Details - Math-7A Sequoia</title>
     <style>
         * {
             margin: 0;
@@ -36,12 +36,13 @@ HTML_TEMPLATE = '''
         
         .container {
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 30px 10px 10px 20px;
             width: 100%;
+            padding: 10px;
         }
         
         h1 {
-            color: #667eea;
+            color: #000000;
             margin-bottom: 20px;
             font-size: 2em;
         }
@@ -49,7 +50,7 @@ HTML_TEMPLATE = '''
         .url-form {
             display: flex;
             gap: 10px;
-            margin-bottom: 10px;
+            margin-top: 10px;
         }
         
         .url-input {
@@ -115,19 +116,21 @@ HTML_TEMPLATE = '''
 <body>
     <div class="header">
         <div class="container">
-            <h1>🌐 Web Proxy</h1>
+            <h1>🌐 Waizender Proxy V2.1</h1>
             <form method="POST" action="/" class="url-form">
                 <input 
                     type="text" 
                     name="url" 
                     class="url-input" 
-                    placeholder="Enter URL (e.g., https://example.com)"
+                    placeholder="https://example.com"
                     value="{{ current_url }}"
                     required
                 >
                 <button type="submit" class="btn">Browse</button>
             </form>
-            <p class="info">ℹ️ Enter any URL to browse it through this proxy</p>
+            <details class="info">
+                ℹ️ Use the Waizender Proxy as a simple http/web proxy interface to access websites that may otherwise be blocked by a firewall.
+            </details>
         </div>
     </div>
     
