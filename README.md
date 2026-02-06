@@ -4,11 +4,11 @@ A simple educational web proxy built with Python Flask. Browse websites through 
 
 ## Features
 
-- 🎨 Clean, gradient UI with responsive design
-- 🔗 Automatic link rewriting (browse from site to site)
-- 🚀 Easy to run - just one command
-- 📱 Mobile-friendly interface
-- ⚡ Fast and lightweight
+- Clean, gradient UI with responsive design
+- Automatic link rewriting (browse from site to site)
+- Easy to run - just one command
+- Mobile-friendly interface
+- Fast and lightweight
 
 ## Setup Instructions
 
